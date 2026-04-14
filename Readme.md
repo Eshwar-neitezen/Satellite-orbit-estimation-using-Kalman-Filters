@@ -115,34 +115,16 @@ python -c "import numpy, matplotlib, filterpy; print('✓ All dependencies insta
 ## Project Structure
 
 ```
-satellite-orbit-estimation-kalman-filters/
+satellite-orbit-estimation/
 │
-├── README.md                          # Project documentation
-├── requirements.txt                   # Python dependencies
-├── LICENSE                            # Project license
-│
-├── src/
-│   ├── __init__.py
-│   ├── orbital_mechanics.py          # Two-body dynamics & RK4 integration
-│   ├── kalman_filters.py             # EKF and UKF implementations
-│   ├── measurement_models.py          # Sensor models (linear & nonlinear)
-│   └── utils.py                      # Utility functions (plotting, etc.)
-│
-├── examples/
-│   ├── basic_ekf_estimation.py       # Simple EKF example
-│   ├── basic_ukf_estimation.py       # Simple UKF example
-│   ├── compare_filters.py            # Head-to-head EKF vs UKF comparison
-│   └── noise_sensitivity_analysis.py # Performance under varying noise
-│
-├── notebooks/
-│   ├── tutorial.ipynb                # Interactive tutorial with explanations
-│   └── parameter_tuning.ipynb        # Guide to tuning filter parameters
-│
-└── results/
-    ├── plots/                        # Generated comparison plots
-    └── data/                         # Simulation results (CSV/pickle)
-```
-
+├── main.py
+├── dynamics.py
+├── simulator.py
+├── ekf.py
+├── ukf.py
+├── sensor.py
+├── requirements.txt
+└── README.md
 ---
 
 ## Quick Start
