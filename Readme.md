@@ -456,17 +456,6 @@ set PYTHONPATH=%PYTHONPATH%;%cd%         # Windows
 python examples/basic_ekf_estimation.py
 ```
 
----
-
-## Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. **Report bugs** - Open an issue with clear description
-2. **Suggest features** - Request new filters, measurement models, or examples
-3. **Submit improvements** - Fork, make changes, and create a pull request
-4. **Improve documentation** - Fix typos, clarify explanations, add examples
-
 ### Development Setup
 
 ```bash
@@ -486,20 +475,27 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## References & Further Reading
+## References and Further Reading
 
 ### Kalman Filtering
-- Welch, G., & Bishop, G. (2006). *An Introduction to the Kalman Filter* - [Online](https://www.cs.unc.edu/~welch/media/pdf/kalman_intro.pdf)
+- Welch, G., & Bishop, G. (2006). *An Introduction to the Kalman Filter*
+- Labbe, R. (2020). *Kalman and Bayesian Filters in Python* :contentReference[oaicite:0]{index=0}
 - Bar-Shalom, Y., Li, X. R., & Kirubarajan, T. (2001). *Estimation with Applications to Tracking and Navigation*
 
+### Orbit Determination and Estimation
+- Manarvi, A., & Henderson, T. (2013). *Application of Kalman Filters in Orbit Determination: A Literature Survey* :contentReference[oaicite:1]{index=1}  
+- Ipek, M. (2017). *Satellite Orbit Estimation Using Kalman Filters (M.S. Thesis)* :contentReference[oaicite:2]{index=2}  
+
+### Practical EKF Applications (Space Systems)
+- Tirmal, N., et al. (ISRO). *Extended Kalman Filter Based Onboard Orbit Determination Using GNSS Receiver for LEO and GEO Satellites* :contentReference[oaicite:3]{index=3}  
+
 ### Orbital Mechanics
-- Curtis, H. D. (2013). *Orbital Mechanics for Engineering Students* (3rd ed.)
-- Vallado, D. A., Crawford, P., Hujsa, R., & Kelso, T. S. (2006). *Revisiting Spacetrack Report #3*
+- Curtis, H. D. (2013). *Orbital Mechanics for Engineering Students (3rd ed.)*
+- Vallado, D. A., et al. (2006). *Revisiting Spacetrack Report #3*
 
-### Unscented Kalman Filter
+### Unscented Kalman Filter and Nonlinear Estimation
 - Julier, S. J., & Uhlmann, J. K. (2004). *Unscented Filtering and Nonlinear Estimation*
-- Sarkka, S. (2013). *Bayesian Filtering and Smoothing*
-
+- Särkkä, S. (2013). *Bayesian Filtering and Smoothing*
 ---
 
 ---
